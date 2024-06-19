@@ -1,0 +1,24 @@
+git pull 是Git命令
+用于从远程更新仓库的本地版本
+GIt用于网络交互的四个命令之一
+
+默认情况：
+更新当前本地工作分支（当前签出分支）
+更新所有其他分支的远程跟踪分支
+
+git pull 获取（git fetch）新的提交并将它们合并到（git merge）本地分支
+一般格式
+git pull OPTIONS REPOSITORY REFSPEC
+从某个分支拉取
+git pull REMOTE-NAME BRANCH-NAME
+
+OPTIONS：命令选项
+REPOSITORY：仓库的URL
+REFSPEC：指定要获取哪些refs和要更新哪些本地refs
+REMOTE-NAME：远程仓库名称，如origin
+BRANCH-NAME：你的分支名称，如develop
+
+git-pull-Fetch from and integrate with another repository or a local branch
+
+git pull [<options>] [<repository> [<refspec>……]]
+

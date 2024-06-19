@@ -1,0 +1,4 @@
+error: incompatible types: possible lossy conversion from double to float
+    float s = 0.0;
+
+错误:不兼容的类型:从双精度到浮点数的可能有损转换
